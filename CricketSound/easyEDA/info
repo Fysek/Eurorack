@@ -1,0 +1,612 @@
+{
+  "uuid": "6a324fa367aabdede73097632a20de6c",
+  "path": "Offline/Eurorack CricketSound",
+  "name": "Eurorack CricketSound",
+  "content": "",
+  "created_at": "2021-05-10 20:32:59",
+  "updated_at": "2021-09-18 17:20:16",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e896d53171f5cf46035348f922815037",
+      "title": "Main Circut",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "070056e8a366465f829ead3be38a843a": 1,
+        "bb009484ef804a24ac5d18c54b249586": 7,
+        "1ce51404ab0a461bad2d198b7cf8a123": 1,
+        "5016a28cdea34b8a8d4bfefd62339f9f": 4,
+        "d4fb74fd4a8547dcbd3447643849d271": 2,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 3,
+        "e545f26e87c74952857381bd0bff848e": 4,
+        "781bb089da6646c28be2615ec82c2944": 1,
+        "3a58e8deac2f343ad16016c690ddfb7a": 1,
+        "eaa76950fd7343a1953943ee7b9978d3": 4,
+        "f5b1d9403e49471cab43bc5a1bec336f": 4,
+        "2a0e4433d6d945bab75c9108213c9cb5": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BC547B",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C713613",
+            "BOM_Manufacturer": "LGE",
+            "BOM_Manufacturer Part": "BC547B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "1ce51404ab0a461bad2d198b7cf8a123"
+          }
+        ],
+        [
+          "LM386MX-1/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "LM386MX-1/NOPB",
+            "BOM_Supplier Part": "C23573",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "2a0e4433d6d945bab75c9108213c9cb5"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X8P",
+          1,
+          "IDC-TH_16P-P2.54_C3406",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 16P　Straight",
+            "BOM_Supplier Part": "C3406",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1eacb86c820e48ae8f4bb880cd2189e7",
+            "uuid": "3a58e8deac2f343ad16016c690ddfb7a"
+          }
+        ],
+        [
+          "Thonkiconn",
+          1,
+          "THONKICONN",
+          "OUTPUT",
+          {
+            "BOM_Manufacturer Part": "Thonk",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e8aa9b163da54d75a1bf19cd2392f9bb",
+            "uuid": "781bb089da6646c28be2615ec82c2944"
+          }
+        ],
+        [
+          "10K",
+          4,
+          "RES-TH_RK09K1130A70",
+          "GAIN,REP,TONE,MOD",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C351173",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130A70",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fddc6c36ee784bc7b504fe347f3085c7",
+            "uuid": "5016a28cdea34b8a8d4bfefd62339f9f"
+          }
+        ],
+        [
+          "CD4093BM",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C160714",
+            "BOM_Manufacturer": "Texas Instruments",
+            "BOM_Manufacturer Part": "CD4093BM",
+            "puuid": "bb311a94a4cb4d43984afb997764cddb",
+            "uuid": "070056e8a366465f829ead3be38a843a"
+          }
+        ],
+        [
+          "2K2",
+          5,
+          "R0603",
+          "R2,R7,R6,R1,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10",
+          1,
+          "R0603",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "51K",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1N4148W",
+          2,
+          "SOD-123_L3.1-W1.7-LS3.7-RD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1884539",
+            "BOM_Manufacturer": "YFW佑风微",
+            "BOM_Manufacturer Part": "1N4148W",
+            "puuid": "d515a6d957f6450a9257d144497c503e",
+            "uuid": "d4fb74fd4a8547dcbd3447643849d271"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CASE-A_3216",
+          "C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "250u",
+          1,
+          "CASE-A_3216",
+          "C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CASE-A_3216",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "1u",
+          1,
+          "CASE-A_3216",
+          "C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x4",
+          4,
+          "HDR-F-2.54_1X4",
+          "H4,H1,H2,H3",
+          {
+            "BOM_Supplier Part": "C225501",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "eaa76950fd7343a1953943ee7b9978d3"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          4,
+          "HDR-M-2.54_1X4",
+          "J4,J3,J2,J1",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "50n",
+          1,
+          "C0603",
+          "C7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ]
+      ],
+      "updateTime": 1631963966,
+      "createTime": 1620671878,
+      "histories": [],
+      "created_at": "2021-05-10 20:37:58",
+      "updated_at": "2021-09-18 13:19:26"
+    },
+    {
+      "uuid": "4c2e4da56066c8a4fa6593cf6b08c3f2",
+      "puuid": "6a324fa367aabdede73097632a20de6c",
+      "title": "PCB_Eurorack CricketSound",
+      "filename": "PCB_Eurorack CricketSound.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "21473b495b6340c992965357d5701779": 4,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 7,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 3,
+        "d515a6d957f6450a9257d144497c503e": 2,
+        "bb311a94a4cb4d43984afb997764cddb": 1,
+        "ce25118ef0b041b8a773e71ca28ae65d": 4,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "fddc6c36ee784bc7b504fe347f3085c7": 4,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "e8aa9b163da54d75a1bf19cd2392f9bb": 1,
+        "1eacb86c820e48ae8f4bb880cd2189e7": 1,
+        "282f7786cb6144d097ae00194c3e3fb3": 4
+      },
+      "BOM": [],
+      "updateTime": 1631978416,
+      "createTime": 1620997407,
+      "histories": [],
+      "created_at": "2021-05-14 15:03:27",
+      "updated_at": "2021-09-18 17:20:16"
+    },
+    {
+      "uuid": "01adb1069be7e505d8573a35866af9c6",
+      "puuid": "6a324fa367aabdede73097632a20de6c",
+      "title": "PCB_Eurorack CricketSound_Poured",
+      "filename": "PCB_Eurorack CricketSound_Poured.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "21473b495b6340c992965357d5701779": 4,
+        "1bf59dff03ec4233aa077dc7cf0e92a1": 7,
+        "f187d3c25f9f43a29b67d3cfa364ee78": 3,
+        "d515a6d957f6450a9257d144497c503e": 2,
+        "bb311a94a4cb4d43984afb997764cddb": 1,
+        "ce25118ef0b041b8a773e71ca28ae65d": 4,
+        "6924b36489de4921bb29ca14bf27c33f": 1,
+        "fddc6c36ee784bc7b504fe347f3085c7": 4,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "e8aa9b163da54d75a1bf19cd2392f9bb": 1,
+        "1eacb86c820e48ae8f4bb880cd2189e7": 1,
+        "282f7786cb6144d097ae00194c3e3fb3": 4
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BC547B",
+          1,
+          "TO-92-3_L4.9-W3.7-P1.27-L",
+          "Q1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C713613",
+            "BOM_Manufacturer": "LGE",
+            "BOM_Manufacturer Part": "BC547B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "6924b36489de4921bb29ca14bf27c33f",
+            "uuid": "1ce51404ab0a461bad2d198b7cf8a123"
+          }
+        ],
+        [
+          "LM386MX-1/NOPB",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TI",
+            "BOM_Manufacturer Part": "LM386MX-1/NOPB",
+            "BOM_Supplier Part": "C23573",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "2a0e4433d6d945bab75c9108213c9cb5"
+          }
+        ],
+        [
+          "HDR-IDC-2.54-2X8P",
+          1,
+          "IDC-TH_16P-P2.54_C3406",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "IDC Box 2.54mm 16P　Straight",
+            "BOM_Supplier Part": "C3406",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "1eacb86c820e48ae8f4bb880cd2189e7",
+            "uuid": "3a58e8deac2f343ad16016c690ddfb7a"
+          }
+        ],
+        [
+          "Thonkiconn",
+          1,
+          "THONKICONN",
+          "OUTPUT",
+          {
+            "BOM_Manufacturer Part": "Thonk",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "e8aa9b163da54d75a1bf19cd2392f9bb",
+            "uuid": "781bb089da6646c28be2615ec82c2944"
+          }
+        ],
+        [
+          "10K",
+          4,
+          "RES-TH_RK09K1130A70",
+          "GAIN,REP,TONE,MOD",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C351173",
+            "BOM_Manufacturer": "ALPS Electric",
+            "BOM_Manufacturer Part": "RK09K1130A70",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fddc6c36ee784bc7b504fe347f3085c7",
+            "uuid": "5016a28cdea34b8a8d4bfefd62339f9f"
+          }
+        ],
+        [
+          "CD4093BM",
+          1,
+          "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C160714",
+            "BOM_Manufacturer": "Texas Instruments",
+            "BOM_Manufacturer Part": "CD4093BM",
+            "puuid": "bb311a94a4cb4d43984afb997764cddb",
+            "uuid": "070056e8a366465f829ead3be38a843a"
+          }
+        ],
+        [
+          "2K2",
+          5,
+          "R0603",
+          "R2,R7,R6,R1,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10",
+          1,
+          "R0603",
+          "R4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "51K",
+          1,
+          "R0603",
+          "R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "1bf59dff03ec4233aa077dc7cf0e92a1",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "1N4148W",
+          2,
+          "SOD-123_L3.1-W1.7-LS3.7-RD",
+          "D1,D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C1884539",
+            "BOM_Manufacturer": "YFW佑风微",
+            "BOM_Manufacturer Part": "1N4148W",
+            "puuid": "d515a6d957f6450a9257d144497c503e",
+            "uuid": "d4fb74fd4a8547dcbd3447643849d271"
+          }
+        ],
+        [
+          "10u",
+          1,
+          "CASE-A_3216",
+          "C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "250u",
+          1,
+          "CASE-A_3216",
+          "C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "100u",
+          1,
+          "CASE-A_3216",
+          "C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "1u",
+          1,
+          "CASE-A_3216",
+          "C3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x4",
+          4,
+          "HDR-F-2.54_1X4",
+          "H4,H1,H2,H3",
+          {
+            "BOM_Supplier Part": "C225501",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "21473b495b6340c992965357d5701779",
+            "uuid": "eaa76950fd7343a1953943ee7b9978d3"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x4",
+          4,
+          "HDR-M-2.54_1X4",
+          "J4,J3,J2,J1",
+          {
+            "BOM_Supplier Part": "C124378",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "100n",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ],
+        [
+          "50n",
+          1,
+          "C0603",
+          "C7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f187d3c25f9f43a29b67d3cfa364ee78",
+            "uuid": "fd11c9e744c44aeab6011e8bd4c3ea86"
+          }
+        ]
+      ],
+      "updateTime": 1631978406,
+      "createTime": 1631978406,
+      "histories": [],
+      "created_at": "2021-09-18 17:20:06",
+      "updated_at": "2021-09-18 17:20:06"
+    }
+  ],
+  "sort": [],
+  "title": "Eurorack CricketSound",
+  "foldername": "Eurorack CricketSound",
+  "schfilename": "Eurorack CricketSound.json",
+  "schfilemtime": 1631963966745
+}
