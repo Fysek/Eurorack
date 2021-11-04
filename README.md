@@ -30,6 +30,7 @@
 
 #### Things to fix:
   - Change power socket to 10P
+  - Fix potentiometers connector (few of them are reversed now)
   - Change electrolytic capacitors to bigger sizes
   - Make more GND vias between layers
   - Split the board to two projects: front and back
