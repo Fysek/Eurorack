@@ -28,6 +28,13 @@
 <img src="https://github.com/Fysek/Eurorack/blob/main/CricketSound/multiple_pcbs.jpg" width="400"/>
 <img src="https://github.com/Fysek/Eurorack/blob/main/CricketSound/assembly_2.jpg" width="400"/>
 
+#### Things to fix:
+  - Change power socket to 10P
+  - Change electrolytic capacitors to bigger sizes
+  - Make more GND vias between layers
+  - Split the board to two projects: front and back
+
+
 <!-- LICENSE -->
 ## License
 
